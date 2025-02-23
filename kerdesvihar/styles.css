@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Varela+Round&display=swap');
+body {
+background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(82,31,173,1) 80%, rgba(0,114,255,1) 100%); 
+}
+#title {
+    color:white;
+    font-family:"Varela Round";
+}
+.link {
+    color:lime;
+    text-decoration:none;
+}
+.link:hover {
+    text-decoration:underline;
+}
+#timer {
+  color:white;
+  font-size:x-large;
+  font-family:"Nova Square"; 
+}
+#score {
+  font-size: 80px;
+}
+
+button {
+  background-color:lime;
+  border-radius:30px;
+  padding:10px;
+  font-size:large;
+  border-width:0;
+}
+button:hover {
+  background-color:green;
+}
+button:active {
+  background-color:black;
+}
+/* From Uiverse.io by jeremyssocial */ 
+@keyframes blinkCursor {
+    50% {
+      border-right-color: transparent;
+    }
+  }
+  
+  .terminal-loader {
+    border: 0.1em solid #333;
+    background-color: #1a1a1a;
+    color: #0f0;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 1.5em 1em;
+    width: 12em;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    width:100%;
+  }
+  
+  .terminal-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.5em;
+    background-color: #333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0 0.4em;
+    box-sizing: border-box;
+  }
+  
+  .terminal-controls {
+    float: right;
+  }
+  
+  .control {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.4em;
+    border-radius: 50%;
+    background-color: #777;
+  }
+  
+  .control.close {
+    background-color: #e33;
+  }
+  
+  .control.minimize {
+    background-color: #ee0;
+  }
+  
+  .control.maximize {
+    background-color: #0b0;
+  }
+  
+  .terminal-title {
+    float: left;
+    line-height: 1.5em;
+    color: #eee;
+  }
+  
+  .text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow:hidden;
+    border-right: 0.2em solid green; /* Cursor */
+    animation: blinkCursor 0.5s step-end infinite alternate;
+    margin-top: 1.5em;
+  }
