@@ -14,6 +14,8 @@ const question = [
     "Lehúzás a kahoot?",
     "mennyi 20+1?",
     "eddig jó volt?",
+    "Hány lyuk van egy pólón?",
+    "Hogy írjuk azt hogy alfaacademy?",
     "most hogy játszottál, tényleg jobb mint a kahoot?"
 ];
 
@@ -27,6 +29,8 @@ const one = [
     "IGEN",
     "345",
     "NEM",
+    "3",
+    " Alphaacademy",
     "NEM"
 ];
 
@@ -40,6 +44,8 @@ const two = [
     "NEM",
     "21",
     "IGEN",
+    "2",
+    "Alphacademy",
     "TÖK SZEMÉT!"
 ];
 
@@ -53,6 +59,21 @@ const three = [
     "van kahoot előfizetésem",
     "47",
     "nagyon szemét volt",
+    "4",
+    "Alpha academy",
+    "IGEN"
+];
+const fo = [
+    "",
+    "4",
+    "Roblox",
+    "SchafsecmousMenti",
+    ":-)",
+    "van kahoot előfizetésem",
+    "47",
+    "nagyon szemét volt",
+    "4",
+    "Alpha academy",
     "IGEN"
 ];
 const answer = [
@@ -64,6 +85,8 @@ const answer = [
     2,
     1,
     2,
+    2,
+    3,
     2,
     3 
 ];

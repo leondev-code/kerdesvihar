@@ -1,19 +1,15 @@
 #title {
     text-align:center;
-    color: rgb(30, 255, 0);
+    color: rgb(26, 57, 136);
     font-family: 'Fantasy';
+    text-decoration: underline;
     text-decoration: bold;
-
-
 }
 
 #szoveg {
-    text-align: left;
-    color:rgb(0, 0, 0);
+    text-align: center;
+    color:rgb(34, 112, 112);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(82,31,173,1) 80%, rgba(0,114,255,1) 100%);     
-}
+body {background-color:burlywood;}
