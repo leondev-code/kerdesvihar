@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Varela+Round&display=swap');
 #title {
-    text-align:center;
-    color: rgb(26, 57, 136);
-    font-family: 'Fantasy';
+    text-align: center;
+    color:white;
+    font-family:"Varela Round";
     text-decoration: underline;
-    text-decoration: bold;
 }
-
+h2, h3, h4, p {
+    color:white;
+    font-family:'Varela Round'
+}
+a {
+    color:blue;
+}
 #szoveg {
     text-align: center;
-    color:rgb(34, 112, 112);
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-body {background-color:burlywood;}
+body {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(82,31,173,1) 80%, rgba(0,114,255,1) 100%);
+}

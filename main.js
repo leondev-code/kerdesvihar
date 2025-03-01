@@ -7,6 +7,7 @@ let score=0;
 const question = [
     "",
     "2+2",
+    "Háy percbe telik a napfénynek eljutni a földre?",
     "Melyik nincsen telefonon?",
     "Melyik szó magyar?",
     "Melyik a legjobb kvíz?",
@@ -21,6 +22,7 @@ const question = [
 
 const one = [
     "",
+    "3",
     "3",
     "Super Mario Maker 2",
     "Egér",
@@ -37,6 +39,7 @@ const one = [
 const two = [
     "",
     "22",
+    "nulla",
     "Among Us",
     "Dampfschifffahrt",
     "KérdésVihar!",
@@ -45,13 +48,14 @@ const two = [
     "21",
     "IGEN",
     "2",
-    "Alphacademy",
+    "50/50",
     "TÖK SZEMÉT!"
 ];
 
 const three = [
     "",
     "4",
+    "100",
     "Roblox",
     "Schafseckel",
     "Menti",
@@ -63,22 +67,24 @@ const three = [
     "Alpha academy",
     "IGEN"
 ];
-const fo = [
+const four = [
     "",
     "4",
-    "Roblox",
+    "8",
+    "Robloksz",
     "SchafsecmousMenti",
-    ":-)",
-    "van kahoot előfizetésem",
-    "47",
-    "nagyon szemét volt",
-    "4",
-    "Alpha academy",
-    "IGEN"
+    ":-)(",
+    "van 1 éve kahoot előfizetésem",
+    "1",
+    "nagyon de naygon szemét volt",
+    "100",
+    "Alphakacademy",
+    "Elég béna."
 ];
 const answer = [
     1,
     3,
+    4,
     1,
     1,
     2,
@@ -87,7 +93,7 @@ const answer = [
     2,
     2,
     3,
-    2,
+    4,
     3 
 ];
 function timerdisplay() {
@@ -116,7 +122,7 @@ if (exittimer==0) {
         document.getElementById("one").innerHTML=one[currentq];
         document.getElementById("two").innerHTML=two[currentq];
         document.getElementById("three").innerHTML=three[currentq];
-        
+        document.getElementById("four").innerHTML=four[currentq];
 }
 if (currentq==10) {    
     document.getElementById("question").innerHTML = "sikerült mindent helyesen megválaszolnod!";
