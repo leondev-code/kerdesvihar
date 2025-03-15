@@ -4,6 +4,15 @@ let incorrect = false;
 let currentq=0;
 let score=0;
 
+const questions = [
+    {
+        question: "2+2",
+        answers: ['3', '22', '4', '6'],
+        correct: 1
+    }
+]
+
+
 const question = [
     "",
     "2+2",
@@ -129,7 +138,9 @@ if (currentq==10) {
     document.getElementById("one").style.visibility="hidden";
     document.getElementById("two").style.visibility="hidden";
     document.getElementById("three").style.visibility="hidden";
+    document.getElementById("four").style.visibility="hidden";
     document.getElementById("timer").style.visibility="hidden";
+    
 }
 }}}}
 function check(value) {
@@ -145,11 +156,13 @@ function check(value) {
             document.getElementById("one").innerHTML=one[currentq];
             document.getElementById("two").innerHTML=two[currentq];
             document.getElementById("three").innerHTML=three[currentq];
+            document.getElementById("four").innerHTML=three[currentq];
             if (currentq==10) {    
        document.getElementById("question").innerHTML = "sikerült mindent helyesen megválaszolnod!";
        document.getElementById("one").style.visibility="hidden";
        document.getElementById("two").style.visibility="hidden";
        document.getElementById("three").style.visibility="hidden";
+       document.getElementById("four").style.visibility="hidden";
        document.getElementById("timer").style.visibility="hidden";
             }
         }}
